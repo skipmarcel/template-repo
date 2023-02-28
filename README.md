@@ -2,28 +2,31 @@
 
 #### (Brief Description of Application)
 
-#### By (Your Name Here)
+#### By (Tyler Adams)
 
 ## Technologies Used
 
-- _List all_
-- _the major technologies_
-- _you used in your project_
-- _here_
+- _HTML_
+- _javaScript_
+- _CSS_
+- _webpack_
+- _eslint_
+- _jest_
+- _babel_
 
 ## Description
 
 ## Setup/Installation Requirements
 
-- _This is a great place_
-- _to list setup instructions_
-- _in a simple_
-- _easy-to-understand_
-- _format_
+- _Install all packages with $ npm install_
+- _Build the project using webpack with $ npm run build_
+- _Start a development server with $ npm run start_
+- _Lint JS files in the src folder with $ npm run lint_
+- _Run tests with Jest using $ npm run test_
 
 ## Known Bugs
 
-- _Any known issues_
-- _should go here_
+_eslint throws no-undef errors when linting jest test files_
+_fixed with this code in the .eslintrc file: "jest/gloabals": true_
 
 ## License
